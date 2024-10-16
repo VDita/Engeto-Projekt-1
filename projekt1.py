@@ -97,7 +97,6 @@ else:
         print(separator)
         
         #Jednoduchý sloupcový graf, který bude reprezentovat četnost různých délek slov v textu
-        #bobtext = selected_text.split()
         word_len = {}
         for word in text:
             lenght = len(word.strip(".,!?;:"))
